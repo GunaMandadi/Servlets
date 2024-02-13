@@ -9,7 +9,7 @@ public class LoginServlet extends HttpServlet {
             throws ServletException, IOException {
         String username = request.getParameter("username");
         String password = request.getParameter("password");
-        if (username.equals("Ramya") && password.equals("2701")) {
+        if (username.equals("Guna") && password.equals("2524")) {
             HttpSession session = request.getSession();
             session.setAttribute("username", username);
             response.sendRedirect("home.html");
