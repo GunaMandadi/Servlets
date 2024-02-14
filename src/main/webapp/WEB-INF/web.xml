@@ -16,6 +16,14 @@
     <servlet-name>LogoutServlet</servlet-name>
     <url-pattern>/LogoutServlet</url-pattern>
   </servlet-mapping>
+  <error-page>
+    <error-code>404</error-code>
+    <location>/error404.html</location>
+  </error-page>
+  <error-page>
+    <error-code>500</error-code>
+    <location>/error500.html</location>
+  </error-page>
   <welcome-file-list>
     <welcome-file>login.html</welcome-file>
   </welcome-file-list>
