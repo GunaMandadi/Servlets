@@ -1,0 +1,726 @@
+14-Feb-2024 14:19:57.153 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 14:19:57.159 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 14:19:57.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 14:19:57.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 14:19:57.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 14:19:57.160 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 14:19:57.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 14:19:57.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 14:19:57.161 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 14:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 14:19:57.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 14:19:57.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 14:19:57.178 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 14:19:57.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 14:19:57.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 14:19:57.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 14:19:57.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 14:19:57.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 14:19:57.179 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 14:19:57.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 14:19:57.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 14:19:57.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=59169:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 14:19:57.180 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 14:19:57.208 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 14:19:57.690 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 14:19:57.719 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [920] milliseconds
+14-Feb-2024 14:19:57.793 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 14:19:57.793 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 14:19:57.810 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 14:19:58.317 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 14:19:58.418 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [607] ms
+14-Feb-2024 14:19:58.432 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 14:19:58.487 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [767] milliseconds
+14-Feb-2024 15:53:45.411 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 15:53:45.489 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 15:53:45.765 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 15:53:45.810 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:20:23.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 16:20:23.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 16:20:23.569 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 16:20:23.570 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 16:20:23.571 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 16:20:23.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 16:20:23.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 16:20:23.589 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 16:20:23.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=63337:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 16:20:23.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 16:20:23.624 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 16:20:24.156 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:20:24.180 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [990] milliseconds
+14-Feb-2024 16:20:24.249 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 16:20:24.250 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 16:20:24.266 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 16:20:24.820 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 16:20:24.930 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [663] ms
+14-Feb-2024 16:20:24.936 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:20:24.992 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [812] milliseconds
+14-Feb-2024 16:24:11.362 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:24:11.384 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 16:24:11.661 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 16:24:11.673 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 22:04:20.232 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 22:04:20.240 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 22:04:20.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 22:04:20.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 22:04:20.241 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 22:04:20.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 22:04:20.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 22:04:20.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 22:04:20.242 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 22:04:20.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 22:04:20.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 22:04:20.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 22:04:20.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 22:04:20.263 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 22:04:20.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 22:04:20.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 22:04:20.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 22:04:20.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 22:04:20.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 22:04:20.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 22:04:20.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 22:04:20.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=55958:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 22:04:20.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 22:04:20.330 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 22:04:21.102 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 22:04:21.147 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1460] milliseconds
+14-Feb-2024 22:04:21.263 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 22:04:21.263 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 22:04:21.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 22:04:23.754 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 22:04:23.973 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [136] milliseconds.
+14-Feb-2024 22:04:24.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [2,796] ms
+14-Feb-2024 22:04:24.101 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 22:04:24.286 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3140] milliseconds
+14-Feb-2024 22:24:26.039 INFO [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/C:/Users/Yeshwanth%20Reddy/OneDrive/Desktop/Servlets/web-servlets/conf/tomcat-users.xml]
+14-Feb-2024 22:24:26.052 SEVERE [Catalina-utility-1] org.apache.catalina.users.MemoryUserDatabase.open The specified user database [conf/tomcat-users.xml] could not be found
+14-Feb-2024 22:24:26.571 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/javax-servlets]
+14-Feb-2024 22:25:13.050 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 22:25:13.082 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 22:25:13.086 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 22:25:13.098 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:23:37.063 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 23:23:37.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 23:23:37.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 23:23:37.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 23:23:37.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 23:23:37.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 23:23:37.070 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 23:23:37.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 23:23:37.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 23:23:37.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:23:37.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:23:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 23:23:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 23:23:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 23:23:37.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=57594:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 23:23:37.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 23:23:37.112 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 23:23:37.684 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:23:37.731 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1031] milliseconds
+14-Feb-2024 23:23:37.830 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 23:23:37.830 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 23:23:37.846 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 23:23:40.177 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 23:23:40.750 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:23:40.836 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:23:40 CST 2024]; root of context hierarchy
+14-Feb-2024 23:23:40.981 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:23:40.986 SEVERE [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:960)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4641)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4948)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:691)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1897)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:584)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1619)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+		... 60 more
+14-Feb-2024 23:23:41.015 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [3,167] ms
+14-Feb-2024 23:23:41.019 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:23:41.073 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3341] milliseconds
+14-Feb-2024 23:23:59.483 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:23:59.484 INFO [http-nio-8080-exec-6] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:23:59 CST 2024]; root of context hierarchy
+14-Feb-2024 23:23:59.485 INFO [http-nio-8080-exec-6] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:23:59.486 SEVERE [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:747)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:116)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+		... 36 more
+14-Feb-2024 23:23:59.527 INFO [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:23:59.528 INFO [http-nio-8080-exec-6] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:23:59 CST 2024]; root of context hierarchy
+14-Feb-2024 23:23:59.530 INFO [http-nio-8080-exec-6] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:23:59.531 SEVERE [http-nio-8080-exec-6] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:747)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:640)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+		at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+		at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+		... 40 more
+14-Feb-2024 23:25:14.480 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:25:14.498 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 23:25:14.533 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:25:14.543 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:25:32.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 23:25:32.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 23:25:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 23:25:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 23:25:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 23:25:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 23:25:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 23:25:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 23:25:32.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 23:25:32.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:25:32.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:25:32.154 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 23:25:32.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 23:25:32.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 23:25:32.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 23:25:32.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 23:25:32.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:25:32.155 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:25:32.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 23:25:32.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 23:25:32.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 23:25:32.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=57610:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 23:25:32.156 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 23:25:32.174 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 23:25:32.651 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:25:32.680 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [893] milliseconds
+14-Feb-2024 23:25:32.764 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 23:25:32.765 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 23:25:32.785 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 23:25:35.105 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 23:25:35.699 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:25:35.794 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:25:35 CST 2024]; root of context hierarchy
+14-Feb-2024 23:25:35.946 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:25:35.951 SEVERE [main] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:960)
+		at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4641)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4948)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:661)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:691)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1897)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:584)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:474)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1619)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:114)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:402)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:345)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:893)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:794)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:145)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:866)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:248)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:433)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:921)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+		... 60 more
+14-Feb-2024 23:25:35.978 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [3,192] ms
+14-Feb-2024 23:25:35.987 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:25:36.047 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [3366] milliseconds
+14-Feb-2024 23:25:47.118 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:25:47.119 INFO [http-nio-8080-exec-2] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:25:47 CST 2024]; root of context hierarchy
+14-Feb-2024 23:25:47.120 INFO [http-nio-8080-exec-2] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:25:47.123 SEVERE [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:747)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:116)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+		... 36 more
+14-Feb-2024 23:25:47.147 INFO [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:25:47.148 INFO [http-nio-8080-exec-2] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:25:47 CST 2024]; root of context hierarchy
+14-Feb-2024 23:25:47.150 INFO [http-nio-8080-exec-2] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:25:47.150 SEVERE [http-nio-8080-exec-2] org.springframework.web.servlet.DispatcherServlet.initServletBean Context initialization failed
+	org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from ServletContext resource [/WEB-INF/spring-servlet.xml]; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:344)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:304)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:181)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:217)
+		at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:188)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+		at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+		at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:129)
+		at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:614)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:515)
+		at org.springframework.web.servlet.FrameworkServlet.configureAndRefreshWebApplicationContext(FrameworkServlet.java:668)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:634)
+		at org.springframework.web.servlet.FrameworkServlet.createWebApplicationContext(FrameworkServlet.java:682)
+		at org.springframework.web.servlet.FrameworkServlet.initWebApplicationContext(FrameworkServlet.java:553)
+		at org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:494)
+		at org.springframework.web.servlet.HttpServletBean.init(HttpServletBean.java:171)
+		at javax.servlet.GenericServlet.init(GenericServlet.java:143)
+		at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1106)
+		at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1063)
+		at org.apache.catalina.core.StandardWrapper.allocate(StandardWrapper.java:747)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:640)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:427)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:357)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:294)
+		at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:377)
+		at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:237)
+		at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:323)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:164)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:670)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:842)
+	Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/spring-servlet.xml]
+		at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:141)
+		at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:330)
+		... 40 more
+14-Feb-2024 23:27:47.110 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:27:47.133 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 23:27:47.149 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:27:47.161 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:28:04.582 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 23:28:04.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 23:28:04.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 23:28:04.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 23:28:04.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 23:28:04.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 23:28:04.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 23:28:04.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 23:28:04.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 23:28:04.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:28:04.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:28:04.609 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 23:28:04.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 23:28:04.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 23:28:04.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=57627:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 23:28:04.611 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 23:28:04.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 23:28:05.101 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:28:05.127 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [906] milliseconds
+14-Feb-2024 23:28:05.213 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 23:28:05.213 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 23:28:05.231 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 23:28:07.653 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 23:28:08.254 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:28:08.338 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:28:08 CST 2024]; root of context hierarchy
+14-Feb-2024 23:28:08.477 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:28:10.329 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.java.cis.BMIController.calculateBMI(double,double)
+14-Feb-2024 23:28:10.339 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 23:28:10.339 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 23:28:10.624 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:28:08 CST 2024]; root of context hierarchy
+14-Feb-2024 23:28:10.782 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:28:08 CST 2024]; root of context hierarchy
+14-Feb-2024 23:28:11.200 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 2946 ms
+14-Feb-2024 23:28:11.215 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [5,984] ms
+14-Feb-2024 23:28:11.219 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:28:11.290 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6163] milliseconds
+14-Feb-2024 23:28:21.262 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/home.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:28:21.275 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:28:28.259 WARNING [http-nio-8080-exec-6] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/home.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:28:28.260 WARNING [http-nio-8080-exec-6] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:28:30.058 WARNING [http-nio-8080-exec-9] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/home.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:28:30.060 WARNING [http-nio-8080-exec-9] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:36:09.083 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:36:09.127 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 23:36:09.156 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:28:08 CST 2024]; root of context hierarchy
+14-Feb-2024 23:36:09.258 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:36:09.283 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:36:41.038 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 23:36:41.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 23:36:41.044 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 23:36:41.045 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:36:41.046 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:36:41.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 23:36:41.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 23:36:41.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 23:36:41.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 23:36:41.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 23:36:41.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:36:41.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:36:41.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 23:36:41.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 23:36:41.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 23:36:41.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=57802:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 23:36:41.061 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 23:36:41.084 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 23:36:41.646 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:36:41.676 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1008] milliseconds
+14-Feb-2024 23:36:41.757 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 23:36:41.757 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 23:36:41.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 23:36:44.972 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 23:36:45.593 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [188] milliseconds.
+14-Feb-2024 23:36:46.520 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:36:46.607 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:36:46 CST 2024]; root of context hierarchy
+14-Feb-2024 23:36:46.756 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:36:48.526 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.java.cis.BMIController.calculateBMI(double,double)
+14-Feb-2024 23:36:48.535 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 23:36:48.535 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 23:36:48.772 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:36:46 CST 2024]; root of context hierarchy
+14-Feb-2024 23:36:48.910 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:36:46 CST 2024]; root of context hierarchy
+14-Feb-2024 23:36:49.334 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 2814 ms
+14-Feb-2024 23:36:49.354 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [7,580] ms
+14-Feb-2024 23:36:49.357 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:36:49.415 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7738] milliseconds
+14-Feb-2024 23:36:53.638 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:36:53.647 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:37:00.602 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:37:00.603 WARNING [http-nio-8080-exec-5] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:37:18.584 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:37:18.607 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 23:37:18.609 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:36:46 CST 2024]; root of context hierarchy
+14-Feb-2024 23:37:18.629 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:37:18.638 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:37:36.247 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 23:37:36.251 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 23:37:36.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 23:37:36.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 23:37:36.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 23:37:36.252 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 23:37:36.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 23:37:36.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 23:37:36.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 23:37:36.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:37:36.253 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:37:36.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 23:37:36.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 23:37:36.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 23:37:36.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=57813:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 23:37:36.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 23:37:36.283 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 23:37:36.746 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:37:36.774 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [813] milliseconds
+14-Feb-2024 23:37:36.860 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 23:37:36.860 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 23:37:36.877 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 23:37:39.110 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 23:37:39.670 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:37:39.763 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:37:39 CST 2024]; root of context hierarchy
+14-Feb-2024 23:37:39.909 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:37:41.720 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.java.cis.BMIController.calculateBMI(double,double)
+14-Feb-2024 23:37:41.729 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 23:37:41.730 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 23:37:41.972 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:37:39 CST 2024]; root of context hierarchy
+14-Feb-2024 23:37:42.128 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:37:39 CST 2024]; root of context hierarchy
+14-Feb-2024 23:37:42.611 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 2941 ms
+14-Feb-2024 23:37:42.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [5,751] ms
+14-Feb-2024 23:37:42.632 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:37:42.688 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5913] milliseconds
+14-Feb-2024 23:37:45.815 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:37:45.823 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:38:50.767 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:38:50.792 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 23:38:50.796 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:37:39 CST 2024]; root of context hierarchy
+14-Feb-2024 23:38:50.813 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:38:50.827 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:40:07.203 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+14-Feb-2024 23:40:07.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+14-Feb-2024 23:40:07.211 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+14-Feb-2024 23:40:07.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+14-Feb-2024 23:40:07.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+14-Feb-2024 23:40:07.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2024 23:40:07.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-17
+14-Feb-2024 23:40:07.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.9+11-LTS-201
+14-Feb-2024 23:40:07.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2024 23:40:07.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:40:07.213 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:40:07.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Feb-2024 23:40:07.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Feb-2024 23:40:07.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Feb-2024 23:40:07.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Feb-2024 23:40:07.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Yeshwanth Reddy\Downloads\apache-tomcat-9.0.85\apache-tomcat-9.0.85
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\temp
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\logging.properties
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\lib\idea_rt.jar=57859:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin
+14-Feb-2024 23:40:07.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+14-Feb-2024 23:40:07.248 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\build-tools;C:\Users\Yeshwanth Reddy\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\Yeshwanth Reddy\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\mingw-w64\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\usr\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Library\bin;C:\Users\Yeshwanth Reddy\OneDrive\New folder\Scripts;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python311\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Python\Python39\;C:\Users\Yeshwanth Reddy\AppData\Local\Microsoft\WindowsApps;C:\Users\Yeshwanth Reddy\.dotnet\tools;C:\Users\Yeshwanth Reddy\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Yeshwanth Reddy\OneDrive\Desktop\PyCharm Community Edition 2022.3.2\bin;;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Yeshwanth Reddy\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.2\bin;;C:\Users\Yeshwanth Reddy\AppData\Local\GitHubDesktop\bin;;.]
+14-Feb-2024 23:40:07.725 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:40:07.759 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [919] milliseconds
+14-Feb-2024 23:40:07.849 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2024 23:40:07.849 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+14-Feb-2024 23:40:07.867 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml]
+14-Feb-2024 23:40:14.152 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2024 23:40:14.766 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization started
+14-Feb-2024 23:40:14.847 INFO [main] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:40:14 CST 2024]; root of context hierarchy
+14-Feb-2024 23:40:15.000 INFO [main] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/spring-servlet.xml]
+14-Feb-2024 23:40:16.854 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/bmi],methods=[POST]}" onto public org.springframework.web.servlet.ModelAndView com.java.cis.BMIController.calculateBMI(double,double)
+14-Feb-2024 23:40:16.862 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/],methods=[GET]}" onto public java.lang.String com.java.cis.HomeController.home(java.util.Locale,org.springframework.ui.Model)
+14-Feb-2024 23:40:16.863 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user],methods=[POST]}" onto public java.lang.String com.java.cis.HomeController.user(com.java.cis.User,org.springframework.ui.Model)
+14-Feb-2024 23:40:17.110 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:40:14 CST 2024]; root of context hierarchy
+14-Feb-2024 23:40:17.250 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:40:14 CST 2024]; root of context hierarchy
+14-Feb-2024 23:40:17.684 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'spring': initialization completed in 2918 ms
+14-Feb-2024 23:40:17.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Yeshwanth Reddy\OneDrive\Desktop\Servlets\web-servlets\conf\Catalina\localhost\javax-servlets.xml] has finished in [9,842] ms
+14-Feb-2024 23:40:17.713 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:40:17.772 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [10012] milliseconds
+14-Feb-2024 23:40:21.240 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:40:21.247 WARNING [http-nio-8080-exec-2] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:40:24.190 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:40:24.192 WARNING [http-nio-8080-exec-3] org.springframework.web.servlet.PageNotFound.noHandlerFound No mapping found for HTTP request with URI [/javax-servlets/error404.html] in DispatcherServlet with name 'spring'
+14-Feb-2024 23:41:00.288 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:41:00.306 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2024 23:41:00.308 INFO [Thread-1] org.springframework.web.context.support.XmlWebApplicationContext.doClose Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Feb 14 23:40:14 CST 2024]; root of context hierarchy
+14-Feb-2024 23:41:00.322 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Feb-2024 23:41:00.344 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
